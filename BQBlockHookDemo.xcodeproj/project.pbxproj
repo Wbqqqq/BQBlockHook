@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		763789232510C0060090669A /* NSObject+BQBlockHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 763789212510C0060090669A /* NSObject+BQBlockHook.m */; };
+		764C4AE7250F47BC00508DF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 764C4AE6250F47BC00508DF3 /* main.m */; };
+		764C4AF1250F47BD00508DF3 /* BQBlockHookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764C4AF0250F47BD00508DF3 /* BQBlockHookDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		764C4AED250F47BD00508DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764C4AC9250F47BA00508DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764C4AD0250F47BA00508DF3;
+			remoteInfo = BQBlockHookDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		763789212510C0060090669A /* NSObject+BQBlockHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BQBlockHook.m"; sourceTree = "<group>"; };
+		763789222510C0060090669A /* NSObject+BQBlockHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BQBlockHook.h"; sourceTree = "<group>"; };
+		764C4AD1250F47BA00508DF3 /* BQBlockHookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQBlockHookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		764C4AE5250F47BC00508DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764C4AE6250F47BC00508DF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		764C4AEC250F47BD00508DF3 /* BQBlockHookDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQBlockHookDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764C4AF0250F47BD00508DF3 /* BQBlockHookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQBlockHookDemoTests.m; sourceTree = "<group>"; };
+		764C4AF2250F47BD00508DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		764C4ACE250F47BA00508DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764C4AE9250F47BD00508DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		763789202510C0060090669A /* BQBlockHook */ = {
+			isa = PBXGroup;
+			children = (
+				763789212510C0060090669A /* NSObject+BQBlockHook.m */,
+				763789222510C0060090669A /* NSObject+BQBlockHook.h */,
+			);
+			path = BQBlockHook;
+			sourceTree = "<group>";
+		};
+		764C4AC8250F47BA00508DF3 = {
+			isa = PBXGroup;
+			children = (
+				764C4AD3250F47BA00508DF3 /* BQBlockHookDemo */,
+				764C4AEF250F47BD00508DF3 /* BQBlockHookDemoTests */,
+				764C4AD2250F47BA00508DF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		764C4AD2250F47BA00508DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764C4AD1250F47BA00508DF3 /* BQBlockHookDemo.app */,
+				764C4AEC250F47BD00508DF3 /* BQBlockHookDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		764C4AD3250F47BA00508DF3 /* BQBlockHookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				763789202510C0060090669A /* BQBlockHook */,
+				764C4AE5250F47BC00508DF3 /* Info.plist */,
+				764C4AE6250F47BC00508DF3 /* main.m */,
+			);
+			path = BQBlockHookDemo;
+			sourceTree = "<group>";
+		};
+		764C4AEF250F47BD00508DF3 /* BQBlockHookDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				764C4AF0250F47BD00508DF3 /* BQBlockHookDemoTests.m */,
+				764C4AF2250F47BD00508DF3 /* Info.plist */,
+			);
+			path = BQBlockHookDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		764C4AD0250F47BA00508DF3 /* BQBlockHookDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764C4B00250F47BD00508DF3 /* Build configuration list for PBXNativeTarget "BQBlockHookDemo" */;
+			buildPhases = (
+				764C4ACD250F47BA00508DF3 /* Sources */,
+				764C4ACE250F47BA00508DF3 /* Frameworks */,
+				764C4ACF250F47BA00508DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BQBlockHookDemo;
+			productName = BQBlockHookDemo;
+			productReference = 764C4AD1250F47BA00508DF3 /* BQBlockHookDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		764C4AEB250F47BD00508DF3 /* BQBlockHookDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764C4B03250F47BD00508DF3 /* Build configuration list for PBXNativeTarget "BQBlockHookDemoTests" */;
+			buildPhases = (
+				764C4AE8250F47BD00508DF3 /* Sources */,
+				764C4AE9250F47BD00508DF3 /* Frameworks */,
+				764C4AEA250F47BD00508DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764C4AEE250F47BD00508DF3 /* PBXTargetDependency */,
+			);
+			name = BQBlockHookDemoTests;
+			productName = BQBlockHookDemoTests;
+			productReference = 764C4AEC250F47BD00508DF3 /* BQBlockHookDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		764C4AC9250F47BA00508DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = wangbingquan;
+				TargetAttributes = {
+					764C4AD0250F47BA00508DF3 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					764C4AEB250F47BD00508DF3 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 764C4AD0250F47BA00508DF3;
+					};
+				};
+			};
+			buildConfigurationList = 764C4ACC250F47BA00508DF3 /* Build configuration list for PBXProject "BQBlockHookDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 764C4AC8250F47BA00508DF3;
+			productRefGroup = 764C4AD2250F47BA00508DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				764C4AD0250F47BA00508DF3 /* BQBlockHookDemo */,
+				764C4AEB250F47BD00508DF3 /* BQBlockHookDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		764C4ACF250F47BA00508DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764C4AEA250F47BD00508DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		764C4ACD250F47BA00508DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764C4AE7250F47BC00508DF3 /* main.m in Sources */,
+				763789232510C0060090669A /* NSObject+BQBlockHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764C4AE8250F47BD00508DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764C4AF1250F47BD00508DF3 /* BQBlockHookDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		764C4AEE250F47BD00508DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764C4AD0250F47BA00508DF3 /* BQBlockHookDemo */;
+			targetProxy = 764C4AED250F47BD00508DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		764C4AFE250F47BD00508DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		764C4AFF250F47BD00508DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		764C4B01250F47BD00508DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = BQBlockHookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BQBlockHookDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		764C4B02250F47BD00508DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97EH9K7KAV;
+				INFOPLIST_FILE = BQBlockHookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BQBlockHookDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		764C4B04250F47BD00508DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BQBlockHookDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BQBlockHookDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQBlockHookDemo.app/BQBlockHookDemo";
+			};
+			name = Debug;
+		};
+		764C4B05250F47BD00508DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BQBlockHookDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.BQBlockHookDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQBlockHookDemo.app/BQBlockHookDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		764C4ACC250F47BA00508DF3 /* Build configuration list for PBXProject "BQBlockHookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764C4AFE250F47BD00508DF3 /* Debug */,
+				764C4AFF250F47BD00508DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764C4B00250F47BD00508DF3 /* Build configuration list for PBXNativeTarget "BQBlockHookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764C4B01250F47BD00508DF3 /* Debug */,
+				764C4B02250F47BD00508DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764C4B03250F47BD00508DF3 /* Build configuration list for PBXNativeTarget "BQBlockHookDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764C4B04250F47BD00508DF3 /* Debug */,
+				764C4B05250F47BD00508DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 764C4AC9250F47BA00508DF3 /* Project object */;
+}
